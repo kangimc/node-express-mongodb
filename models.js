@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 // 链接数据库
-mongoose.connect('mongodb://localhost:27017/express-auth',{
+mongoose.connect(mongodb+srv://kangimc:kang666@minecraft.zqxhsgu.mongodb.net/?retryWrites=true&w=majority/express-auth',{
     useCreateIndex:true,
     useNewUrlParser:true
 })
